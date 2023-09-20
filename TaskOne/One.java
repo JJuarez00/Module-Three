@@ -49,7 +49,7 @@ public class One {
         /* Same here you can remove this if you want to look at the results.
         
         System.out.println("Car 2:");
-        System.out.println(car2);
+        System.out.println(car2.toString());
         
         */
         
