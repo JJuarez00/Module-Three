@@ -1,3 +1,4 @@
+
 package modulethree.taskOne;
 
 public class Car {
@@ -7,10 +8,8 @@ public class Car {
     private int milesDriven;
     private String carColor;
 
-
-// -  -  -  - Getter methods
-  
-    public int getModelYear() {               //  Get YEAR
+    // Getter methods
+    public int getModelYear() {                   //  Get YEAR
         return modelYear;
     }
 
@@ -22,7 +21,7 @@ public class Car {
         return bodyShape;
     }
 
-    public int getMilesDriven() {              // Get MILES
+    public int getMilesDriven() {                 // Get MILES
         return milesDriven;
     }
 
@@ -30,11 +29,7 @@ public class Car {
         return carColor;
     }
 
-
-
-  
-// -  -  -  - Setter methods
-  
+    // Setter methods
     public void setModelYear(int modelYear) {               // Set YEAR
         this.modelYear = modelYear;
     }
@@ -44,7 +39,7 @@ public class Car {
     }
     
     
-    public void setBodyShape(String bodyShape) {         // Set BODY
+    public void setBodyShape(String bodyShape) {
         this.bodyShape = bodyShape;
     }
 
@@ -58,7 +53,8 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car Information:\n Model Year: " + modelYear + "\nModel Name" + modelName
-                                             + "\n Mile Driven: " + milesDriven + "\nCar Color: " + carColor + "\n"; 
-}
+        return "\nModel Year: " + modelYear + "\nModel Name: " + modelName
+                                             + "\nMile Driven: " + milesDriven + "\nBody Shape: "
+                                            + bodyShape + "\nCar Color: " + carColor + "\n"; 
+    }
 }
