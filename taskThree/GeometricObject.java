@@ -2,7 +2,7 @@ package modulethree.taskThree;
 
 public class GeometricObject {
     
-    // Date Fields
+    // Data Fields
     private String color = "";
     private boolean fill = false;
     
